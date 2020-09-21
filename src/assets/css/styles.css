@@ -1,0 +1,51 @@
+.add {
+    width: 100%;
+    height: 640px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.add .add__col1 {
+    width: 4%;
+    height: 640px;
+
+    background-color: #ffcccc;
+}
+
+.add .add__col2 {
+    width: 96%;
+    height: 640px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.add .add__col2 .add__col2__sec1 {
+    width: 100%;
+    height: 320px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.add .add__col2 .add__col2__sec1__box1 {
+    width: 75%;
+    height: 320px;
+
+    background-color: #32ff7e;
+}
+
+.add .add__col2 .add__col2__sec1__box2 {
+    width: 25%;
+    height: 320px;
+
+    background-color: #fffa65;
+}
+
+.add .add__col2 .add__col2__sec2 {
+    width: 100%;
+    height: 320px;
+
+    background-color: #7efff5;
+}
